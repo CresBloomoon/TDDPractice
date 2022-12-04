@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Episode2
 {
-    internal class Program
+    public enum TypeKind
     {
-        private static async Task Main(string[] args)
-        {
-            await MainFlow.Run();
-        }
+        Null,
+        Bool,
+        Number,
+        String,
     }
 }
